@@ -54,6 +54,9 @@ body {
     height: 80vh;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-content {
@@ -104,6 +107,15 @@ body {
 
 .projects-item {
     
+}
+
+.contact-container {
+    color: #F1F1F1;
+    background: #29326a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
 }
 
 .footer-container {
@@ -199,12 +211,17 @@ a:hover, a:active {
     display: block;
 }
 
-.btn:hover, .btn:focus, .btn:active {
+.btn:focus, .btn:active {
     background: #74b44a;
     color: #F1F1F1;
     border: 2px solid #74b44a;
 }
 
+.hero-content .btn:hover {
+    background: #74b44a;
+    /* color: #74b44a; */
+    border: 2px solid #74b44a;
+}
 
 
 /* Typography
