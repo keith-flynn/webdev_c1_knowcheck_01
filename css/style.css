@@ -113,9 +113,14 @@ body {
     color: #F1F1F1;
     background: #29326a;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 48px 0;
+}
+
+.social-container {
+    display: flex;
 }
 
 .footer-container {
