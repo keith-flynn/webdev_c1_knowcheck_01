@@ -121,6 +121,27 @@ body {
 
 .social-container {
     display: flex;
+    width: 45%;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+#li-sprite {
+    width: 100px;
+    height: 100px;
+    background: url(../img/icons.jpg) -175px -183px;
+}
+
+#fb-sprite {
+    width: 100px;
+    height: 100px;
+    background: url(../img/icons.jpg) -36px -38px;
+}
+
+#yt-sprite {
+    width: 100px;
+    height: 100px;
+    background: url(../img/icons.jpg) -314px -38px;
 }
 
 .footer-container {
